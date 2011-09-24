@@ -10,6 +10,8 @@
 
 set(scripts_STAT_SRCS
   ${scripts_STAT_SRCS}
+  Custom/OutdoorPvPAzshara.cpp
+  Custom/OutdoorPvPAzshara.h
 )
 
 message("  -> Prepared: Custom")

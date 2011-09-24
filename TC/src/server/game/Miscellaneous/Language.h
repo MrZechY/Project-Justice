@@ -1054,6 +1054,21 @@ enum TrinityStrings
     LANG_AUTO_BROADCAST                 = 11000,
     LANG_INVALID_REALMID                = 11001,
 
+
+	// opvp azshara
+    LANG_OPVP_Azshara_CAPTURE_HORDE_H     = 70001,
+    LANG_OPVP_Azshara_CAPTURE_HORDE_A     = 70002,
+    LANG_OPVP_Azshara_CAPTURE_NEUTRAL_H   = 70003,
+    LANG_OPVP_Azshara_CAPTURE_NEUTRAL_A   = 70004,
+    LANG_OPVP_Azshara_CAPTURE_ALLIANCE_H  = 70005,
+    LANG_OPVP_Azshara_CAPTURE_ALLIANCE_A  = 70006,
+    LANG_OPVP_Azshara_LOSE_HORDE_H        = 70007,
+    LANG_OPVP_Azshara_LOSE_HORDE_A        = 70008,
+    LANG_OPVP_Azshara_LOSE_NEUTRAL_H      = 70009,
+    LANG_OPVP_Azshara_LOSE_NEUTRAL_A      = 70010,
+    LANG_OPVP_Azshara_LOSE_ALLIANCE_H     = 70011,
+    LANG_OPVP_Azshara_LOSE_ALLIANCE_A     = 70012,
+
     // NOT RESERVED IDS                   12000-1999999999
     // `db_script_string` table index     2000000000-2000009999 (MIN_DB_SCRIPT_STRING_ID-MAX_DB_SCRIPT_STRING_ID)
     // For other tables maybe             2000010000-2147483647 (max index)
