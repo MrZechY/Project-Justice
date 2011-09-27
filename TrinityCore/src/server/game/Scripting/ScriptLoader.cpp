@@ -1228,6 +1228,14 @@ void AddBattlegroundScripts()
 
 #ifdef SCRIPTS
 /* This is where custom scripts' loading functions should be declared. */
+void AddSC_npc_dynamic_teleporter();
+void AddSC_custom_npc_doctor();
+void AddSC_npc_petmaster();
+void AddSC_npc_quelthalas();
+void AddSC_AzsharaPvP_Ranged();
+void AddSC_AzsharaPvP_Caster();
+void AddSC_AzsharaPvP_Melee();
+void AddSC_AzsharaPvP();
 
 #endif
 
@@ -1239,5 +1247,10 @@ void AddCustomScripts()
 	AddSC_custom_npc_doctor();
 	AddSC_npc_petmaster();
     AddSC_npc_quelthalas();
+	AddSC_AzsharaPvP_Ranged();
+	AddSC_AzsharaPvP_Caster();
+	AddSC_AzsharaPvP_Melee();
+	AddSC_AzsharaPvP();
+
 #endif
 }

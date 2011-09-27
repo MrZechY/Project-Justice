@@ -14,8 +14,13 @@ set(scripts_STAT_SRCS
   Custom/custom_npc_doctor.cpp
   Custom/npc_petmaster.cpp
   Custom/npc_quelthalas.cpp
-  CUstom/OutdoorPvPAzshara.h
+  Custom/OutdoorPvPAzshara.h
   Custom/OutdoorPvPAzshara.cpp
+  Custom/AzsharaPvP.cpp
+  Custom/AzsharaPvP.h
+  Custom/AzsharaPvP_Caster.cpp
+  Custom/AzsharaPvP_Ranged.cpp
+  Custom/AzsharaPvP_Melee.cpp
 )
 
 message("  -> Prepared: Custom")
