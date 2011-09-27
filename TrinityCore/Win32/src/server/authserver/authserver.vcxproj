@@ -1,0 +1,343 @@
+﻿<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{CE7DFF17-695F-4AEC-BAF6-A7DB26EF0671}</ProjectGUID>
+    <SccProjectName />
+    <SccLocalPath />
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>authserver</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\github\Justice\TrinityCore\Win32\bin\Debug\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">authserver.dir\Debug\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">authserver</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\github\Justice\TrinityCore\Win32\bin\Release\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">authserver.dir\Release\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">authserver</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\github\Justice\TrinityCore\Win32\bin\MinSizeRel\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">authserver.dir\MinSizeRel\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">authserver</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\github\Justice\TrinityCore\Win32\bin\RelWithDebInfo\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">authserver.dir\RelWithDebInfo\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">authserver</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</LinkIncremental>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalOptions> /Zm1000 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:/github/Justice/TrinityCore/Win32/src/server/authserver;C:/github/Justice/TrinityCore/Win32;C:/github/Justice/TrinityCore/src/server/shared;C:/github/Justice/TrinityCore/src/server/shared/Database;C:/github/Justice/TrinityCore/src/server/shared/Debugging;C:/github/Justice/TrinityCore/src/server/shared/Packets;C:/github/Justice/TrinityCore/src/server/shared/Cryptography;C:/github/Justice/TrinityCore/src/server/shared/Cryptography/Authentication;C:/github/Justice/TrinityCore/src/server/shared/Logging;C:/github/Justice/TrinityCore/src/server/shared/Threading;C:/github/Justice/TrinityCore/src/server/shared/Utilities;C:/github/Justice/TrinityCore/src/server/authserver;C:/github/Justice/TrinityCore/src/server/authserver/Authentication;C:/github/Justice/TrinityCore/src/server/authserver/Realms;C:/github/Justice/TrinityCore/src/server/authserver/Server;C:/github/Justice/TrinityCore/dep/acelite;C:/github/Justice/TrinityCore/dep/mysqllite/include;C:/OpenSSL-Win32/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4996;4355;4244;4985;4267;4619</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ForcedIncludeFiles>C:/github/Justice/TrinityCore/src/server/authserver/PrecompiledHeaders/authPCH.h</ForcedIncludeFiles>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>C:/github/Justice/TrinityCore/src/server/authserver/PrecompiledHeaders/authPCH.h</PrecompiledHeaderFile>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;_BUILD_DIRECTIVE="$(ConfigurationName)";_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;SCRIPTS;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>Debug</AssemblerListingLocation>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>C:/github/Justice/TrinityCore/Win32/bin/Debug/authserver.pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>C:/github/Justice/TrinityCore/Win32/src/server/authserver;C:/github/Justice/TrinityCore/Win32;C:/github/Justice/TrinityCore/src/server/shared;C:/github/Justice/TrinityCore/src/server/shared/Database;C:/github/Justice/TrinityCore/src/server/shared/Debugging;C:/github/Justice/TrinityCore/src/server/shared/Packets;C:/github/Justice/TrinityCore/src/server/shared/Cryptography;C:/github/Justice/TrinityCore/src/server/shared/Cryptography/Authentication;C:/github/Justice/TrinityCore/src/server/shared/Logging;C:/github/Justice/TrinityCore/src/server/shared/Threading;C:/github/Justice/TrinityCore/src/server/shared/Utilities;C:/github/Justice/TrinityCore/src/server/authserver;C:/github/Justice/TrinityCore/src/server/authserver/Authentication;C:/github/Justice/TrinityCore/src/server/authserver/Realms;C:/github/Justice/TrinityCore/src/server/authserver/Server;C:/github/Justice/TrinityCore/dep/acelite;C:/github/Justice/TrinityCore/dep/mysqllite/include;C:/OpenSSL-Win32/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:/github/Justice/TrinityCore/Win32/src/server/authserver;C:/github/Justice/TrinityCore/Win32;C:/github/Justice/TrinityCore/src/server/shared;C:/github/Justice/TrinityCore/src/server/shared/Database;C:/github/Justice/TrinityCore/src/server/shared/Debugging;C:/github/Justice/TrinityCore/src/server/shared/Packets;C:/github/Justice/TrinityCore/src/server/shared/Cryptography;C:/github/Justice/TrinityCore/src/server/shared/Cryptography/Authentication;C:/github/Justice/TrinityCore/src/server/shared/Logging;C:/github/Justice/TrinityCore/src/server/shared/Threading;C:/github/Justice/TrinityCore/src/server/shared/Utilities;C:/github/Justice/TrinityCore/src/server/authserver;C:/github/Justice/TrinityCore/src/server/authserver/Authentication;C:/github/Justice/TrinityCore/src/server/authserver/Realms;C:/github/Justice/TrinityCore/src/server/authserver/Server;C:/github/Justice/TrinityCore/dep/acelite;C:/github/Justice/TrinityCore/dep/mysqllite/include;C:/OpenSSL-Win32/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -E copy C:/github/Justice/TrinityCore/src/server/authserver/authserver.conf.dist C:/github/Justice/TrinityCore/Win32/bin/$(ConfigurationName)/
+if errorlevel 1 goto VCReportError</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalOptions> /machine:X86 /debug %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\shared\Debug\shared.lib;..\..\..\dep\mysqllite\Debug\libmysql.lib;C:\OpenSSL-Win32\lib\VC\libeay32MD.lib;C:\OpenSSL-Win32\lib\VC\ssleay32MDd.lib;C:\OpenSSL-Win32\lib\VC\libeay32MDd.lib;..\..\..\dep\acelite\ace\Debug\ace.lib;..\..\..\dep\zlib\Debug\zlib.lib;ws2_32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ImportLibrary>C:/github/Justice/TrinityCore/Win32/src/server/authserver/Debug/authserver.lib</ImportLibrary>
+      <LargeAddressAware>true</LargeAddressAware>
+      <ProgramDataBaseFileName>C:/github/Justice/TrinityCore/Win32/bin/Debug/authserver.pdb</ProgramDataBaseFileName>
+      <StackReserveSize>10000000</StackReserveSize>
+      <SubSystem>Console</SubSystem>
+      <Version>0.0</Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalOptions> /Zm1000 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:/github/Justice/TrinityCore/Win32/src/server/authserver;C:/github/Justice/TrinityCore/Win32;C:/github/Justice/TrinityCore/src/server/shared;C:/github/Justice/TrinityCore/src/server/shared/Database;C:/github/Justice/TrinityCore/src/server/shared/Debugging;C:/github/Justice/TrinityCore/src/server/shared/Packets;C:/github/Justice/TrinityCore/src/server/shared/Cryptography;C:/github/Justice/TrinityCore/src/server/shared/Cryptography/Authentication;C:/github/Justice/TrinityCore/src/server/shared/Logging;C:/github/Justice/TrinityCore/src/server/shared/Threading;C:/github/Justice/TrinityCore/src/server/shared/Utilities;C:/github/Justice/TrinityCore/src/server/authserver;C:/github/Justice/TrinityCore/src/server/authserver/Authentication;C:/github/Justice/TrinityCore/src/server/authserver/Realms;C:/github/Justice/TrinityCore/src/server/authserver/Server;C:/github/Justice/TrinityCore/dep/acelite;C:/github/Justice/TrinityCore/dep/mysqllite/include;C:/OpenSSL-Win32/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings>4996;4355;4244;4985;4267;4619</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ForcedIncludeFiles>C:/github/Justice/TrinityCore/src/server/authserver/PrecompiledHeaders/authPCH.h</ForcedIncludeFiles>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>C:/github/Justice/TrinityCore/src/server/authserver/PrecompiledHeaders/authPCH.h</PrecompiledHeaderFile>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat></DebugInformationFormat>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_BUILD_DIRECTIVE="$(ConfigurationName)";_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;SCRIPTS;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>Release</AssemblerListingLocation>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>C:/github/Justice/TrinityCore/Win32/bin/Release/authserver.pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>C:/github/Justice/TrinityCore/Win32/src/server/authserver;C:/github/Justice/TrinityCore/Win32;C:/github/Justice/TrinityCore/src/server/shared;C:/github/Justice/TrinityCore/src/server/shared/Database;C:/github/Justice/TrinityCore/src/server/shared/Debugging;C:/github/Justice/TrinityCore/src/server/shared/Packets;C:/github/Justice/TrinityCore/src/server/shared/Cryptography;C:/github/Justice/TrinityCore/src/server/shared/Cryptography/Authentication;C:/github/Justice/TrinityCore/src/server/shared/Logging;C:/github/Justice/TrinityCore/src/server/shared/Threading;C:/github/Justice/TrinityCore/src/server/shared/Utilities;C:/github/Justice/TrinityCore/src/server/authserver;C:/github/Justice/TrinityCore/src/server/authserver/Authentication;C:/github/Justice/TrinityCore/src/server/authserver/Realms;C:/github/Justice/TrinityCore/src/server/authserver/Server;C:/github/Justice/TrinityCore/dep/acelite;C:/github/Justice/TrinityCore/dep/mysqllite/include;C:/OpenSSL-Win32/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:/github/Justice/TrinityCore/Win32/src/server/authserver;C:/github/Justice/TrinityCore/Win32;C:/github/Justice/TrinityCore/src/server/shared;C:/github/Justice/TrinityCore/src/server/shared/Database;C:/github/Justice/TrinityCore/src/server/shared/Debugging;C:/github/Justice/TrinityCore/src/server/shared/Packets;C:/github/Justice/TrinityCore/src/server/shared/Cryptography;C:/github/Justice/TrinityCore/src/server/shared/Cryptography/Authentication;C:/github/Justice/TrinityCore/src/server/shared/Logging;C:/github/Justice/TrinityCore/src/server/shared/Threading;C:/github/Justice/TrinityCore/src/server/shared/Utilities;C:/github/Justice/TrinityCore/src/server/authserver;C:/github/Justice/TrinityCore/src/server/authserver/Authentication;C:/github/Justice/TrinityCore/src/server/authserver/Realms;C:/github/Justice/TrinityCore/src/server/authserver/Server;C:/github/Justice/TrinityCore/dep/acelite;C:/github/Justice/TrinityCore/dep/mysqllite/include;C:/OpenSSL-Win32/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -E copy C:/github/Justice/TrinityCore/src/server/authserver/authserver.conf.dist C:/github/Justice/TrinityCore/Win32/bin/$(ConfigurationName)/
+if errorlevel 1 goto VCReportError</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\shared\Release\shared.lib;..\..\..\dep\mysqllite\Release\libmysql.lib;C:\OpenSSL-Win32\lib\VC\ssleay32MD.lib;C:\OpenSSL-Win32\lib\VC\libeay32MD.lib;C:\OpenSSL-Win32\lib\VC\libeay32MDd.lib;..\..\..\dep\acelite\ace\Release\ace.lib;..\..\..\dep\zlib\Release\zlib.lib;ws2_32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <ImportLibrary>C:/github/Justice/TrinityCore/Win32/src/server/authserver/Release/authserver.lib</ImportLibrary>
+      <LargeAddressAware>true</LargeAddressAware>
+      <ProgramDataBaseFileName>C:/github/Justice/TrinityCore/Win32/bin/Release/authserver.pdb</ProgramDataBaseFileName>
+      <StackReserveSize>10000000</StackReserveSize>
+      <SubSystem>Console</SubSystem>
+      <Version>0.0</Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalOptions> /Zm1000 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:/github/Justice/TrinityCore/Win32/src/server/authserver;C:/github/Justice/TrinityCore/Win32;C:/github/Justice/TrinityCore/src/server/shared;C:/github/Justice/TrinityCore/src/server/shared/Database;C:/github/Justice/TrinityCore/src/server/shared/Debugging;C:/github/Justice/TrinityCore/src/server/shared/Packets;C:/github/Justice/TrinityCore/src/server/shared/Cryptography;C:/github/Justice/TrinityCore/src/server/shared/Cryptography/Authentication;C:/github/Justice/TrinityCore/src/server/shared/Logging;C:/github/Justice/TrinityCore/src/server/shared/Threading;C:/github/Justice/TrinityCore/src/server/shared/Utilities;C:/github/Justice/TrinityCore/src/server/authserver;C:/github/Justice/TrinityCore/src/server/authserver/Authentication;C:/github/Justice/TrinityCore/src/server/authserver/Realms;C:/github/Justice/TrinityCore/src/server/authserver/Server;C:/github/Justice/TrinityCore/dep/acelite;C:/github/Justice/TrinityCore/dep/mysqllite/include;C:/OpenSSL-Win32/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings>4996;4355;4244;4985;4267;4619</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ForcedIncludeFiles>C:/github/Justice/TrinityCore/src/server/authserver/PrecompiledHeaders/authPCH.h</ForcedIncludeFiles>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>C:/github/Justice/TrinityCore/src/server/authserver/PrecompiledHeaders/authPCH.h</PrecompiledHeaderFile>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat></DebugInformationFormat>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_BUILD_DIRECTIVE="$(ConfigurationName)";_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;SCRIPTS;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>MinSizeRel</AssemblerListingLocation>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>C:/github/Justice/TrinityCore/Win32/bin/MinSizeRel/authserver.pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>C:/github/Justice/TrinityCore/Win32/src/server/authserver;C:/github/Justice/TrinityCore/Win32;C:/github/Justice/TrinityCore/src/server/shared;C:/github/Justice/TrinityCore/src/server/shared/Database;C:/github/Justice/TrinityCore/src/server/shared/Debugging;C:/github/Justice/TrinityCore/src/server/shared/Packets;C:/github/Justice/TrinityCore/src/server/shared/Cryptography;C:/github/Justice/TrinityCore/src/server/shared/Cryptography/Authentication;C:/github/Justice/TrinityCore/src/server/shared/Logging;C:/github/Justice/TrinityCore/src/server/shared/Threading;C:/github/Justice/TrinityCore/src/server/shared/Utilities;C:/github/Justice/TrinityCore/src/server/authserver;C:/github/Justice/TrinityCore/src/server/authserver/Authentication;C:/github/Justice/TrinityCore/src/server/authserver/Realms;C:/github/Justice/TrinityCore/src/server/authserver/Server;C:/github/Justice/TrinityCore/dep/acelite;C:/github/Justice/TrinityCore/dep/mysqllite/include;C:/OpenSSL-Win32/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:/github/Justice/TrinityCore/Win32/src/server/authserver;C:/github/Justice/TrinityCore/Win32;C:/github/Justice/TrinityCore/src/server/shared;C:/github/Justice/TrinityCore/src/server/shared/Database;C:/github/Justice/TrinityCore/src/server/shared/Debugging;C:/github/Justice/TrinityCore/src/server/shared/Packets;C:/github/Justice/TrinityCore/src/server/shared/Cryptography;C:/github/Justice/TrinityCore/src/server/shared/Cryptography/Authentication;C:/github/Justice/TrinityCore/src/server/shared/Logging;C:/github/Justice/TrinityCore/src/server/shared/Threading;C:/github/Justice/TrinityCore/src/server/shared/Utilities;C:/github/Justice/TrinityCore/src/server/authserver;C:/github/Justice/TrinityCore/src/server/authserver/Authentication;C:/github/Justice/TrinityCore/src/server/authserver/Realms;C:/github/Justice/TrinityCore/src/server/authserver/Server;C:/github/Justice/TrinityCore/dep/acelite;C:/github/Justice/TrinityCore/dep/mysqllite/include;C:/OpenSSL-Win32/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -E copy C:/github/Justice/TrinityCore/src/server/authserver/authserver.conf.dist C:/github/Justice/TrinityCore/Win32/bin/$(ConfigurationName)/
+if errorlevel 1 goto VCReportError</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\shared\MinSizeRel\shared.lib;..\..\..\dep\mysqllite\MinSizeRel\libmysql.lib;C:\OpenSSL-Win32\lib\VC\ssleay32MD.lib;C:\OpenSSL-Win32\lib\VC\libeay32MD.lib;C:\OpenSSL-Win32\lib\VC\libeay32MDd.lib;..\..\..\dep\acelite\ace\MinSizeRel\ace.lib;..\..\..\dep\zlib\MinSizeRel\zlib.lib;ws2_32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <ImportLibrary>C:/github/Justice/TrinityCore/Win32/src/server/authserver/MinSizeRel/authserver.lib</ImportLibrary>
+      <LargeAddressAware>true</LargeAddressAware>
+      <ProgramDataBaseFileName>C:/github/Justice/TrinityCore/Win32/bin/MinSizeRel/authserver.pdb</ProgramDataBaseFileName>
+      <StackReserveSize>10000000</StackReserveSize>
+      <SubSystem>Console</SubSystem>
+      <Version>0.0</Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalOptions> /Zm1000 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:/github/Justice/TrinityCore/Win32/src/server/authserver;C:/github/Justice/TrinityCore/Win32;C:/github/Justice/TrinityCore/src/server/shared;C:/github/Justice/TrinityCore/src/server/shared/Database;C:/github/Justice/TrinityCore/src/server/shared/Debugging;C:/github/Justice/TrinityCore/src/server/shared/Packets;C:/github/Justice/TrinityCore/src/server/shared/Cryptography;C:/github/Justice/TrinityCore/src/server/shared/Cryptography/Authentication;C:/github/Justice/TrinityCore/src/server/shared/Logging;C:/github/Justice/TrinityCore/src/server/shared/Threading;C:/github/Justice/TrinityCore/src/server/shared/Utilities;C:/github/Justice/TrinityCore/src/server/authserver;C:/github/Justice/TrinityCore/src/server/authserver/Authentication;C:/github/Justice/TrinityCore/src/server/authserver/Realms;C:/github/Justice/TrinityCore/src/server/authserver/Server;C:/github/Justice/TrinityCore/dep/acelite;C:/github/Justice/TrinityCore/dep/mysqllite/include;C:/OpenSSL-Win32/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4996;4355;4244;4985;4267;4619</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ForcedIncludeFiles>C:/github/Justice/TrinityCore/src/server/authserver/PrecompiledHeaders/authPCH.h</ForcedIncludeFiles>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>C:/github/Justice/TrinityCore/src/server/authserver/PrecompiledHeaders/authPCH.h</PrecompiledHeaderFile>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_BUILD_DIRECTIVE="$(ConfigurationName)";_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;SCRIPTS;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>RelWithDebInfo</AssemblerListingLocation>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>C:/github/Justice/TrinityCore/Win32/bin/RelWithDebInfo/authserver.pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>C:/github/Justice/TrinityCore/Win32/src/server/authserver;C:/github/Justice/TrinityCore/Win32;C:/github/Justice/TrinityCore/src/server/shared;C:/github/Justice/TrinityCore/src/server/shared/Database;C:/github/Justice/TrinityCore/src/server/shared/Debugging;C:/github/Justice/TrinityCore/src/server/shared/Packets;C:/github/Justice/TrinityCore/src/server/shared/Cryptography;C:/github/Justice/TrinityCore/src/server/shared/Cryptography/Authentication;C:/github/Justice/TrinityCore/src/server/shared/Logging;C:/github/Justice/TrinityCore/src/server/shared/Threading;C:/github/Justice/TrinityCore/src/server/shared/Utilities;C:/github/Justice/TrinityCore/src/server/authserver;C:/github/Justice/TrinityCore/src/server/authserver/Authentication;C:/github/Justice/TrinityCore/src/server/authserver/Realms;C:/github/Justice/TrinityCore/src/server/authserver/Server;C:/github/Justice/TrinityCore/dep/acelite;C:/github/Justice/TrinityCore/dep/mysqllite/include;C:/OpenSSL-Win32/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:/github/Justice/TrinityCore/Win32/src/server/authserver;C:/github/Justice/TrinityCore/Win32;C:/github/Justice/TrinityCore/src/server/shared;C:/github/Justice/TrinityCore/src/server/shared/Database;C:/github/Justice/TrinityCore/src/server/shared/Debugging;C:/github/Justice/TrinityCore/src/server/shared/Packets;C:/github/Justice/TrinityCore/src/server/shared/Cryptography;C:/github/Justice/TrinityCore/src/server/shared/Cryptography/Authentication;C:/github/Justice/TrinityCore/src/server/shared/Logging;C:/github/Justice/TrinityCore/src/server/shared/Threading;C:/github/Justice/TrinityCore/src/server/shared/Utilities;C:/github/Justice/TrinityCore/src/server/authserver;C:/github/Justice/TrinityCore/src/server/authserver/Authentication;C:/github/Justice/TrinityCore/src/server/authserver/Realms;C:/github/Justice/TrinityCore/src/server/authserver/Server;C:/github/Justice/TrinityCore/dep/acelite;C:/github/Justice/TrinityCore/dep/mysqllite/include;C:/OpenSSL-Win32/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -E copy C:/github/Justice/TrinityCore/src/server/authserver/authserver.conf.dist C:/github/Justice/TrinityCore/Win32/bin/$(ConfigurationName)/
+if errorlevel 1 goto VCReportError</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalOptions> /machine:X86 /debug %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\shared\RelWithDebInfo\shared.lib;..\..\..\dep\mysqllite\RelWithDebInfo\libmysql.lib;C:\OpenSSL-Win32\lib\VC\ssleay32MD.lib;C:\OpenSSL-Win32\lib\VC\libeay32MD.lib;C:\OpenSSL-Win32\lib\VC\libeay32MDd.lib;..\..\..\dep\acelite\ace\RelWithDebInfo\ace.lib;..\..\..\dep\zlib\RelWithDebInfo\zlib.lib;ws2_32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ImportLibrary>C:/github/Justice/TrinityCore/Win32/src/server/authserver/RelWithDebInfo/authserver.lib</ImportLibrary>
+      <LargeAddressAware>true</LargeAddressAware>
+      <ProgramDataBaseFileName>C:/github/Justice/TrinityCore/Win32/bin/RelWithDebInfo/authserver.pdb</ProgramDataBaseFileName>
+      <StackReserveSize>10000000</StackReserveSize>
+      <SubSystem>Console</SubSystem>
+      <Version>0.0</Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\..\..\src\server\authserver\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/github/Justice/TrinityCore/src/server/authserver/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -HC:/github/Justice/TrinityCore -BC:/github/Justice/TrinityCore/Win32 --check-stamp-file C:\github\Justice\TrinityCore\Win32\src\server\authserver\CMakeFiles\generate.stamp
+if errorlevel 1 goto VCReportError</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/github/Justice/TrinityCore/src/server/authserver/CMakeLists.txt;C:\github\Justice\TrinityCore\src\server\authserver\CMakeLists.txt;C:\github\Justice\TrinityCore\src\server\authserver\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\github\Justice\TrinityCore\Win32\src\server\authserver\CMakeFiles\generate.stamp;%(Outputs)</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/github/Justice/TrinityCore/src/server/authserver/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -HC:/github/Justice/TrinityCore -BC:/github/Justice/TrinityCore/Win32 --check-stamp-file C:\github\Justice\TrinityCore\Win32\src\server\authserver\CMakeFiles\generate.stamp
+if errorlevel 1 goto VCReportError</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/github/Justice/TrinityCore/src/server/authserver/CMakeLists.txt;C:\github\Justice\TrinityCore\src\server\authserver\CMakeLists.txt;C:\github\Justice\TrinityCore\src\server\authserver\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\github\Justice\TrinityCore\Win32\src\server\authserver\CMakeFiles\generate.stamp;%(Outputs)</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/github/Justice/TrinityCore/src/server/authserver/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -HC:/github/Justice/TrinityCore -BC:/github/Justice/TrinityCore/Win32 --check-stamp-file C:\github\Justice\TrinityCore\Win32\src\server\authserver\CMakeFiles\generate.stamp
+if errorlevel 1 goto VCReportError</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/github/Justice/TrinityCore/src/server/authserver/CMakeLists.txt;C:\github\Justice\TrinityCore\src\server\authserver\CMakeLists.txt;C:\github\Justice\TrinityCore\src\server\authserver\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\github\Justice\TrinityCore\Win32\src\server\authserver\CMakeFiles\generate.stamp;%(Outputs)</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/github/Justice/TrinityCore/src/server/authserver/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -HC:/github/Justice/TrinityCore -BC:/github/Justice/TrinityCore/Win32 --check-stamp-file C:\github\Justice\TrinityCore\Win32\src\server\authserver\CMakeFiles\generate.stamp
+if errorlevel 1 goto VCReportError</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/github/Justice/TrinityCore/src/server/authserver/CMakeLists.txt;C:\github\Justice\TrinityCore\src\server\authserver\CMakeLists.txt;C:\github\Justice\TrinityCore\src\server\authserver\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\github\Justice\TrinityCore\Win32\src\server\authserver\CMakeFiles\generate.stamp;%(Outputs)</Outputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\src\server\authserver\PrecompiledHeaders\authPCH.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/github/Justice/TrinityCore/src/server/authserver/PrecompiledHeaders/authPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/github/Justice/TrinityCore/src/server/authserver/PrecompiledHeaders/authPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/github/Justice/TrinityCore/src/server/authserver/PrecompiledHeaders/authPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/github/Justice/TrinityCore/src/server/authserver/PrecompiledHeaders/authPCH.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClInclude Include="..\..\..\..\src\server\authserver\PrecompiledHeaders\authPCH.h" />
+    <ClCompile Include="..\..\..\..\src\server\authserver\Authentication\AuthCodes.cpp" />
+    <ClInclude Include="..\..\..\..\src\server\authserver\Authentication\AuthCodes.h" />
+    <ClCompile Include="..\..\..\..\src\server\authserver\Realms\RealmList.cpp" />
+    <ClInclude Include="..\..\..\..\src\server\authserver\Realms\RealmList.h" />
+    <ClCompile Include="..\..\..\..\src\server\authserver\Server\AuthSocket.cpp" />
+    <ClCompile Include="..\..\..\..\src\server\authserver\Server\RealmSocket.cpp" />
+    <ClInclude Include="..\..\..\..\src\server\authserver\Server\AuthSocket.h" />
+    <ClInclude Include="..\..\..\..\src\server\authserver\Server\RealmAcceptor.h" />
+    <ClInclude Include="..\..\..\..\src\server\authserver\Server\RealmSocket.h" />
+    <ClCompile Include="..\..\..\..\src\server\authserver\Main.cpp" />
+    <ClInclude Include="..\..\..\..\src\server\authserver\resource.h" />
+    <ClCompile Include="..\..\..\..\src\server\shared\Debugging\WheatyExceptionReport.cpp" />
+    <ClInclude Include="..\..\..\..\src\server\shared\Debugging\WheatyExceptionReport.h" />
+    <ResourceCompile Include="..\..\..\..\src\server\authserver\authserver.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:/github/Justice/TrinityCore/Win32/ZERO_CHECK.vcxproj">
+      <Project>588D7A54-4C0F-4B3C-A227-57E860914E42</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/github/Justice/TrinityCore/Win32/dep/mysqllite/libmysql.vcxproj">
+      <Project>2BA038A0-1D03-447E-B7D8-6C414096DD53</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/github/Justice/TrinityCore/Win32/src/genrev/revision.h.vcxproj">
+      <Project>1FB9328E-9FF1-4BC5-9895-E1B67D388212</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/github/Justice/TrinityCore/Win32/src/server/shared/shared.vcxproj">
+      <Project>7B0CEEF8-414D-4973-ADC3-4189F522A98C</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

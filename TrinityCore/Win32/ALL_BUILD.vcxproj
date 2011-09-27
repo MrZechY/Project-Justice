@@ -1,0 +1,170 @@
+﻿<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{02EFB874-3796-46CE-9029-D821B868822C}</ProjectGUID>
+    <SccProjectName />
+    <SccLocalPath />
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="CMakeFiles\ALL_BUILD.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Build all projects</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'"></Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/github/Justice/TrinityCore/Win32/CMakeFiles/ALL_BUILD.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\github\Justice\TrinityCore\Win32\CMakeFiles\ALL_BUILD;%(Outputs)</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Build all projects</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'"></Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/github/Justice/TrinityCore/Win32/CMakeFiles/ALL_BUILD.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\github\Justice\TrinityCore\Win32\CMakeFiles\ALL_BUILD;%(Outputs)</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Build all projects</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'"></Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/github/Justice/TrinityCore/Win32/CMakeFiles/ALL_BUILD.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\github\Justice\TrinityCore\Win32\CMakeFiles\ALL_BUILD;%(Outputs)</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Build all projects</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'"></Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/github/Justice/TrinityCore/Win32/CMakeFiles/ALL_BUILD.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\github\Justice\TrinityCore\Win32\CMakeFiles\ALL_BUILD;%(Outputs)</Outputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/github/Justice/TrinityCore/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -HC:/github/Justice/TrinityCore -BC:/github/Justice/TrinityCore/Win32 --check-stamp-file C:\github\Justice\TrinityCore\Win32\CMakeFiles\generate.stamp
+if errorlevel 1 goto VCReportError</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/github/Justice/TrinityCore/CMakeLists.txt;C:\github\Justice\TrinityCore\CMakeLists.txt;C:\github\Justice\TrinityCore\Win32\CMakeFiles\CMakeSystem.cmake;C:\github\Justice\TrinityCore\Win32\CMakeFiles\CMakeCCompiler.cmake;C:\github\Justice\TrinityCore\Win32\CMakeFiles\CMakeCXXCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-cl.cmake;C:\github\Justice\TrinityCore\Win32\CMakeFiles\CMakeCPlatform.cmake;C:\github\Justice\TrinityCore\Win32\CMakeFiles\CMakeCXXPlatform.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\cl.cmake;C:\github\Justice\TrinityCore\Win32\CMakeFiles\CMakeRCCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-cl.cmake;C:\github\Justice\TrinityCore\Win32\CMakeFiles\CMakeCPlatform.cmake;C:\github\Justice\TrinityCore\Win32\CMakeFiles\CMakeCXXPlatform.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\cl.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckCXXSourceRuns.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckIncludeFiles.cmake;C:\github\Justice\TrinityCore\cmake\options.cmake;C:\github\Justice\TrinityCore\cmake\macros\CheckPlatform.cmake;C:\github\Justice\TrinityCore\cmake\platform\settings.cmake;C:\github\Justice\TrinityCore\cmake\platform\win\settings.cmake;C:\github\Justice\TrinityCore\cmake\compiler\msvc\settings.cmake;C:\github\Justice\TrinityCore\cmake\macros\FindPCHSupport.cmake;C:\github\Justice\TrinityCore\cmake\macros\FindACE.cmake;C:\github\Justice\TrinityCore\cmake\macros\FindOpenSSL.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeParseArguments.cmake;C:\github\Justice\TrinityCore\cmake\genrev.cmake;C:\github\Justice\TrinityCore\cmake\macros\EnsureVersion.cmake;C:\github\Justice\TrinityCore\cmake\showoptions.cmake;C:\github\Justice\TrinityCore\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\github\Justice\TrinityCore\Win32\CMakeFiles\generate.stamp;%(Outputs)</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/github/Justice/TrinityCore/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -HC:/github/Justice/TrinityCore -BC:/github/Justice/TrinityCore/Win32 --check-stamp-file C:\github\Justice\TrinityCore\Win32\CMakeFiles\generate.stamp
+if errorlevel 1 goto VCReportError</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/github/Justice/TrinityCore/CMakeLists.txt;C:\github\Justice\TrinityCore\CMakeLists.txt;C:\github\Justice\TrinityCore\Win32\CMakeFiles\CMakeSystem.cmake;C:\github\Justice\TrinityCore\Win32\CMakeFiles\CMakeCCompiler.cmake;C:\github\Justice\TrinityCore\Win32\CMakeFiles\CMakeCXXCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-cl.cmake;C:\github\Justice\TrinityCore\Win32\CMakeFiles\CMakeCPlatform.cmake;C:\github\Justice\TrinityCore\Win32\CMakeFiles\CMakeCXXPlatform.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\cl.cmake;C:\github\Justice\TrinityCore\Win32\CMakeFiles\CMakeRCCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-cl.cmake;C:\github\Justice\TrinityCore\Win32\CMakeFiles\CMakeCPlatform.cmake;C:\github\Justice\TrinityCore\Win32\CMakeFiles\CMakeCXXPlatform.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\cl.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckCXXSourceRuns.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckIncludeFiles.cmake;C:\github\Justice\TrinityCore\cmake\options.cmake;C:\github\Justice\TrinityCore\cmake\macros\CheckPlatform.cmake;C:\github\Justice\TrinityCore\cmake\platform\settings.cmake;C:\github\Justice\TrinityCore\cmake\platform\win\settings.cmake;C:\github\Justice\TrinityCore\cmake\compiler\msvc\settings.cmake;C:\github\Justice\TrinityCore\cmake\macros\FindPCHSupport.cmake;C:\github\Justice\TrinityCore\cmake\macros\FindACE.cmake;C:\github\Justice\TrinityCore\cmake\macros\FindOpenSSL.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeParseArguments.cmake;C:\github\Justice\TrinityCore\cmake\genrev.cmake;C:\github\Justice\TrinityCore\cmake\macros\EnsureVersion.cmake;C:\github\Justice\TrinityCore\cmake\showoptions.cmake;C:\github\Justice\TrinityCore\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\github\Justice\TrinityCore\Win32\CMakeFiles\generate.stamp;%(Outputs)</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/github/Justice/TrinityCore/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -HC:/github/Justice/TrinityCore -BC:/github/Justice/TrinityCore/Win32 --check-stamp-file C:\github\Justice\TrinityCore\Win32\CMakeFiles\generate.stamp
+if errorlevel 1 goto VCReportError</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/github/Justice/TrinityCore/CMakeLists.txt;C:\github\Justice\TrinityCore\CMakeLists.txt;C:\github\Justice\TrinityCore\Win32\CMakeFiles\CMakeSystem.cmake;C:\github\Justice\TrinityCore\Win32\CMakeFiles\CMakeCCompiler.cmake;C:\github\Justice\TrinityCore\Win32\CMakeFiles\CMakeCXXCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-cl.cmake;C:\github\Justice\TrinityCore\Win32\CMakeFiles\CMakeCPlatform.cmake;C:\github\Justice\TrinityCore\Win32\CMakeFiles\CMakeCXXPlatform.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\cl.cmake;C:\github\Justice\TrinityCore\Win32\CMakeFiles\CMakeRCCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-cl.cmake;C:\github\Justice\TrinityCore\Win32\CMakeFiles\CMakeCPlatform.cmake;C:\github\Justice\TrinityCore\Win32\CMakeFiles\CMakeCXXPlatform.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\cl.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckCXXSourceRuns.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckIncludeFiles.cmake;C:\github\Justice\TrinityCore\cmake\options.cmake;C:\github\Justice\TrinityCore\cmake\macros\CheckPlatform.cmake;C:\github\Justice\TrinityCore\cmake\platform\settings.cmake;C:\github\Justice\TrinityCore\cmake\platform\win\settings.cmake;C:\github\Justice\TrinityCore\cmake\compiler\msvc\settings.cmake;C:\github\Justice\TrinityCore\cmake\macros\FindPCHSupport.cmake;C:\github\Justice\TrinityCore\cmake\macros\FindACE.cmake;C:\github\Justice\TrinityCore\cmake\macros\FindOpenSSL.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeParseArguments.cmake;C:\github\Justice\TrinityCore\cmake\genrev.cmake;C:\github\Justice\TrinityCore\cmake\macros\EnsureVersion.cmake;C:\github\Justice\TrinityCore\cmake\showoptions.cmake;C:\github\Justice\TrinityCore\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\github\Justice\TrinityCore\Win32\CMakeFiles\generate.stamp;%(Outputs)</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/github/Justice/TrinityCore/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -HC:/github/Justice/TrinityCore -BC:/github/Justice/TrinityCore/Win32 --check-stamp-file C:\github\Justice\TrinityCore\Win32\CMakeFiles\generate.stamp
+if errorlevel 1 goto VCReportError</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/github/Justice/TrinityCore/CMakeLists.txt;C:\github\Justice\TrinityCore\CMakeLists.txt;C:\github\Justice\TrinityCore\Win32\CMakeFiles\CMakeSystem.cmake;C:\github\Justice\TrinityCore\Win32\CMakeFiles\CMakeCCompiler.cmake;C:\github\Justice\TrinityCore\Win32\CMakeFiles\CMakeCXXCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-cl.cmake;C:\github\Justice\TrinityCore\Win32\CMakeFiles\CMakeCPlatform.cmake;C:\github\Justice\TrinityCore\Win32\CMakeFiles\CMakeCXXPlatform.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\cl.cmake;C:\github\Justice\TrinityCore\Win32\CMakeFiles\CMakeRCCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-cl.cmake;C:\github\Justice\TrinityCore\Win32\CMakeFiles\CMakeCPlatform.cmake;C:\github\Justice\TrinityCore\Win32\CMakeFiles\CMakeCXXPlatform.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\cl.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckCXXSourceRuns.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckIncludeFiles.cmake;C:\github\Justice\TrinityCore\cmake\options.cmake;C:\github\Justice\TrinityCore\cmake\macros\CheckPlatform.cmake;C:\github\Justice\TrinityCore\cmake\platform\settings.cmake;C:\github\Justice\TrinityCore\cmake\platform\win\settings.cmake;C:\github\Justice\TrinityCore\cmake\compiler\msvc\settings.cmake;C:\github\Justice\TrinityCore\cmake\macros\FindPCHSupport.cmake;C:\github\Justice\TrinityCore\cmake\macros\FindACE.cmake;C:\github\Justice\TrinityCore\cmake\macros\FindOpenSSL.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeParseArguments.cmake;C:\github\Justice\TrinityCore\cmake\genrev.cmake;C:\github\Justice\TrinityCore\cmake\macros\EnsureVersion.cmake;C:\github\Justice\TrinityCore\cmake\showoptions.cmake;C:\github\Justice\TrinityCore\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\github\Justice\TrinityCore\Win32\CMakeFiles\generate.stamp;%(Outputs)</Outputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:/github/Justice/TrinityCore/Win32/ZERO_CHECK.vcxproj">
+      <Project>588D7A54-4C0F-4B3C-A227-57E860914E42</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/github/Justice/TrinityCore/Win32/dep/acelite/ace/ace.vcxproj">
+      <Project>2A9C2591-0C9A-4FA3-B37C-79202446A785</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/github/Justice/TrinityCore/Win32/src/server/authserver/authserver.vcxproj">
+      <Project>CE7DFF17-695F-4AEC-BAF6-A7DB26EF0671</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/github/Justice/TrinityCore/Win32/src/server/collision/collision.vcxproj">
+      <Project>95C494C3-3A2A-45EB-B300-3ED0331F9A49</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/github/Justice/TrinityCore/Win32/dep/g3dlite/g3dlib.vcxproj">
+      <Project>381CB373-1C37-44D2-9F2F-CD8038EFE445</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/github/Justice/TrinityCore/Win32/src/server/game/game.vcxproj">
+      <Project>54D4BD11-0A4F-4845-B5BF-66D55084C4E4</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/github/Justice/TrinityCore/Win32/dep/gsoap/gsoap.vcxproj">
+      <Project>C60D7B54-BA34-44D2-9306-3BE390AD4779</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/github/Justice/TrinityCore/Win32/dep/mysqllite/libmysql.vcxproj">
+      <Project>2BA038A0-1D03-447E-B7D8-6C414096DD53</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/github/Justice/TrinityCore/Win32/src/genrev/revision.h.vcxproj">
+      <Project>1FB9328E-9FF1-4BC5-9895-E1B67D388212</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/github/Justice/TrinityCore/Win32/src/server/scripts/scripts.vcxproj">
+      <Project>3DE84534-F632-46D4-9D37-DB8306C2B180</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/github/Justice/TrinityCore/Win32/src/server/shared/shared.vcxproj">
+      <Project>7B0CEEF8-414D-4973-ADC3-4189F522A98C</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/github/Justice/TrinityCore/Win32/src/server/worldserver/worldserver.vcxproj">
+      <Project>D5F98138-137B-4A8F-9E42-A9FF829217D1</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/github/Justice/TrinityCore/Win32/dep/zlib/zlib.vcxproj">
+      <Project>91921575-FEC9-476F-93AC-31841B104C74</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -7201,13 +7201,20 @@ bool Player::RewardHonor(Unit *uVictim, uint32 groupsize, int32 honor, bool pvpt
         AddPctN(honor_f, GetMaxPositiveAuraModifier(SPELL_AURA_MOD_HONOR_GAIN_PCT));
     }
 
-        if (GetSession()->GetSecurity() == SEC_PLAYER)
+	uint16 honorweek = 777;
+    if (GetSession()->GetSecurity() == SEC_PLAYER)
     {
-        honor_f *= sWorld->getRate(RATE_HONOR);
+		if(sGameEventMgr->IsActiveEvent(honorweek))
+			honor_f *= sWorld->getRate(RATE_HONOR) * 2;
+		else
+			honor_f *= sWorld->getRate(RATE_HONOR);
     }
     else
     {
-	   honor_f *= sWorld->getRate(VIP_RATE_HONOR);
+		if(sGameEventMgr->IsActiveEvent(honorweek))
+			honor_f *= sWorld->getRate(VIP_RATE_HONOR) * 2;
+		else
+			honor_f *= sWorld->getRate(VIP_RATE_HONOR);
     }
     // Back to int now
     honor = int32(honor_f);

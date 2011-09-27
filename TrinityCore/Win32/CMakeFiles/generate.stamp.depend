@@ -1,0 +1,39 @@
+# CMake generation dependency list for this directory.
+C:/github/Justice/TrinityCore/CMakeLists.txt
+C:/github/Justice/TrinityCore/Win32/CMakeFiles/CMakeSystem.cmake
+C:/github/Justice/TrinityCore/Win32/CMakeFiles/CMakeCCompiler.cmake
+C:/github/Justice/TrinityCore/Win32/CMakeFiles/CMakeCXXCompiler.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CMakeSystemSpecificInformation.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CMakeGenericSystem.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/Platform/Windows.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/Platform/WindowsPaths.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CMakeCInformation.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/Platform/Windows-cl.cmake
+C:/github/Justice/TrinityCore/Win32/CMakeFiles/CMakeCPlatform.cmake
+C:/github/Justice/TrinityCore/Win32/CMakeFiles/CMakeCXXPlatform.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/Platform/cl.cmake
+C:/github/Justice/TrinityCore/Win32/CMakeFiles/CMakeRCCompiler.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CMakeRCInformation.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CMakeCommonLanguageInclude.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CMakeCXXInformation.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/Platform/Windows-cl.cmake
+C:/github/Justice/TrinityCore/Win32/CMakeFiles/CMakeCPlatform.cmake
+C:/github/Justice/TrinityCore/Win32/CMakeFiles/CMakeCXXPlatform.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/Platform/cl.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CMakeCommonLanguageInclude.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CheckCXXSourceRuns.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CheckIncludeFiles.cmake
+C:/github/Justice/TrinityCore/cmake/options.cmake
+C:/github/Justice/TrinityCore/cmake/macros/CheckPlatform.cmake
+C:/github/Justice/TrinityCore/cmake/platform/settings.cmake
+C:/github/Justice/TrinityCore/cmake/platform/win/settings.cmake
+C:/github/Justice/TrinityCore/cmake/compiler/msvc/settings.cmake
+C:/github/Justice/TrinityCore/cmake/macros/FindPCHSupport.cmake
+C:/github/Justice/TrinityCore/cmake/macros/FindACE.cmake
+C:/github/Justice/TrinityCore/cmake/macros/FindOpenSSL.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/FindPackageMessage.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CMakeParseArguments.cmake
+C:/github/Justice/TrinityCore/cmake/genrev.cmake
+C:/github/Justice/TrinityCore/cmake/macros/EnsureVersion.cmake
+C:/github/Justice/TrinityCore/cmake/showoptions.cmake

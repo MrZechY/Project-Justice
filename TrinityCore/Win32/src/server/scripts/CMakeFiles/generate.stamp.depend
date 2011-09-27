@@ -1,0 +1,12 @@
+# CMake generation dependency list for this directory.
+C:/github/Justice/TrinityCore/src/server/scripts/CMakeLists.txt
+C:/github/Justice/TrinityCore/src/server/scripts/Spells/CMakeLists.txt
+C:/github/Justice/TrinityCore/src/server/scripts/Commands/CMakeLists.txt
+C:/github/Justice/TrinityCore/src/server/scripts/Examples/CMakeLists.txt
+C:/github/Justice/TrinityCore/src/server/scripts/Custom/CMakeLists.txt
+C:/github/Justice/TrinityCore/src/server/scripts/World/CMakeLists.txt
+C:/github/Justice/TrinityCore/src/server/scripts/OutdoorPvP/CMakeLists.txt
+C:/github/Justice/TrinityCore/src/server/scripts/EasternKingdoms/CMakeLists.txt
+C:/github/Justice/TrinityCore/src/server/scripts/Kalimdor/CMakeLists.txt
+C:/github/Justice/TrinityCore/src/server/scripts/Outland/CMakeLists.txt
+C:/github/Justice/TrinityCore/src/server/scripts/Northrend/CMakeLists.txt

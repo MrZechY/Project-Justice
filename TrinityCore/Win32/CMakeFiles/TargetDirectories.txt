@@ -1,0 +1,14 @@
+C:/github/Justice/TrinityCore/Win32/CMakeFiles/ALL_BUILD.dir
+C:/github/Justice/TrinityCore/Win32/CMakeFiles/ZERO_CHECK.dir
+C:/github/Justice/TrinityCore/Win32/dep/acelite/ace/CMakeFiles/ace.dir
+C:/github/Justice/TrinityCore/Win32/src/server/authserver/CMakeFiles/authserver.dir
+C:/github/Justice/TrinityCore/Win32/src/server/collision/CMakeFiles/collision.dir
+C:/github/Justice/TrinityCore/Win32/dep/g3dlite/CMakeFiles/g3dlib.dir
+C:/github/Justice/TrinityCore/Win32/src/server/game/CMakeFiles/game.dir
+C:/github/Justice/TrinityCore/Win32/dep/gsoap/CMakeFiles/gsoap.dir
+C:/github/Justice/TrinityCore/Win32/dep/mysqllite/CMakeFiles/libmysql.dir
+C:/github/Justice/TrinityCore/Win32/src/genrev/CMakeFiles/revision.h.dir
+C:/github/Justice/TrinityCore/Win32/src/server/scripts/CMakeFiles/scripts.dir
+C:/github/Justice/TrinityCore/Win32/src/server/shared/CMakeFiles/shared.dir
+C:/github/Justice/TrinityCore/Win32/src/server/worldserver/CMakeFiles/worldserver.dir
+C:/github/Justice/TrinityCore/Win32/dep/zlib/CMakeFiles/zlib.dir

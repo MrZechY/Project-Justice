@@ -1,0 +1,1606 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\src\server\game\PrecompiledHeaders\gamePCH.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\server\game\Accounts\AccountMgr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\server\game\Achievements\AchievementMgr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\server\game\Addons\AddonMgr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\server\game\AI\CoreAI\CombatAI.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\server\game\AI\CoreAI\GameObjectAI.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\server\game\AI\CoreAI\GuardAI.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\server\game\AI\CoreAI\PassiveAI.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\server\game\AI\CoreAI\PetAI.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\server\game\AI\CoreAI\ReactorAI.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\server\game\AI\CoreAI\TotemAI.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\server\game\AI\CoreAI\UnitAI.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\server\game\AI\CreatureAI.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\server\game\AI\CreatureAIRegistry.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\server\game\AI\CreatureAISelector.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\server\game\AI\EventAI\CreatureEventAI.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\server\game\AI\EventAI\CreatureEventAIMgr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\server\game\AI\ScriptedAI\ScriptedCreature.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\server\game\AI\ScriptedAI\ScriptedEscortAI.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\server\game\AI\ScriptedAI\ScriptedFollowerAI.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\server\game\AI\ScriptedAI\ScriptedSimpleAI.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\server\game\AI\SmartScripts\SmartAI.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\server\game\AI\SmartScripts\SmartScript.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\server\game\AI\SmartScripts\SmartScriptMgr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\server\game\AuctionHouse\AuctionHouseMgr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\server\game\Battlegrounds\ArenaTeam.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\server\game\Battlegrounds\ArenaTeamMgr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\server\game\Battlegrounds\Battleground.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\server\game\Battlegrounds\BattlegroundMgr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\server\game\Battlegrounds\BattlegroundQueue.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\server\game\Battlegrounds\Zones\BattlegroundAA.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\server\game\Battlegrounds\Zones\BattlegroundAB.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\server\game\Battlegrounds\Zones\BattlegroundAV.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\server\game\Battlegrounds\Zones\BattlegroundBE.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\server\game\Battlegrounds\Zones\BattlegroundDS.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\server\game\Battlegrounds\Zones\BattlegroundEY.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\server\game\Battlegrounds\Zones\BattlegroundIC.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\server\game\Battlegrounds\Zones\BattlegroundNA.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\server\game\Battlegrounds\Zones\BattlegroundRB.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\server\game\Battlegrounds\Zones\BattlegroundRL.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\server\game\Battlegrounds\Zones\BattlegroundRV.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\server\game\Battlegrounds\Zones\BattlegroundSA.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\server\game\Battlegrounds\Zones\BattlegroundWS.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\server\game\Calendar\Calendar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\server\game\Chat\Channels\Channel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\server\game\Chat\Channels\ChannelMgr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\server\game\Chat\Chat.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\server\game\Chat\ChatLink.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\server\game\Chat\Commands\Debugcmds.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\server\game\Chat\Commands\Level0.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\server\game\Chat\Commands\Level1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\server\game\Chat\Commands\Level2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\server\game\Chat\Commands\Level3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\server\game\Chat\Commands\TicketCommands.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\server\game\Combat\HostileRefManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\server\game\Combat\ThreatManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\server\game\Conditions\ConditionMgr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\server\game\Conditions\DisableMgr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\server\game\DataStores\DBCStores.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\server\game\DungeonFinding\LFGGroupData.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\server\game\DungeonFinding\LFGMgr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\server\game\DungeonFinding\LFGPlayerData.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\server\game\DungeonFinding\LFGScripts.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\server\game\Entities\Corpse\Corpse.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\server\game\Entities\Creature\Creature.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\server\game\Entities\Creature\CreatureGroups.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\server\game\Entities\Creature\GossipDef.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\server\game\Entities\Creature\TemporarySummon.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\server\game\Entities\DynamicObject\DynamicObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\server\game\Entities\GameObject\GameObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\server\game\Entities\Item\Container\Bag.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\server\game\Entities\Item\Item.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\server\game\Entities\Item\ItemEnchantmentMgr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\server\game\Entities\Object\Object.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\server\game\Entities\Object\ObjectPosSelector.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\server\game\Entities\Object\Updates\UpdateData.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\server\game\Entities\Pet\Pet.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\server\game\Entities\Player\DynamicTeleportMgr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\server\game\Entities\Player\Player.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\server\game\Entities\Player\SocialMgr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\server\game\Entities\Totem\Totem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\server\game\Entities\Transport\Transport.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\server\game\Entities\Unit\StatSystem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\server\game\Entities\Unit\Unit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\server\game\Entities\Vehicle\Vehicle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\server\game\Events\GameEventMgr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\server\game\Globals\ObjectAccessor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\server\game\Globals\ObjectMgr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\server\game\Grids\GridStates.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\server\game\Grids\Notifiers\GridNotifiers.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\server\game\Grids\ObjectGridLoader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\server\game\Groups\Group.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\server\game\Groups\GroupMgr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\server\game\Groups\GroupReference.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\server\game\Guilds\Guild.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\server\game\Guilds\GuildMgr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\server\game\Instances\InstanceSaveMgr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\server\game\Instances\InstanceScript.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\server\game\Loot\LootMgr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\server\game\Mails\Mail.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\server\game\Maps\Map.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\server\game\Maps\MapInstanced.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\server\game\Maps\MapManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\server\game\Maps\MapUpdater.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\server\game\Movement\DestinationHolder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\server\game\Movement\FollowerReference.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\server\game\Movement\MotionMaster.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\server\game\Movement\MovementGenerator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\server\game\Movement\MovementGenerators\ConfusedMovementGenerator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\server\game\Movement\MovementGenerators\FleeingMovementGenerator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\server\game\Movement\MovementGenerators\HomeMovementGenerator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\server\game\Movement\MovementGenerators\IdleMovementGenerator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\server\game\Movement\MovementGenerators\PointMovementGenerator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\server\game\Movement\MovementGenerators\RandomMovementGenerator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\server\game\Movement\MovementGenerators\TargetedMovementGenerator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\server\game\Movement\MovementGenerators\WaypointMovementGenerator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\server\game\Movement\Waypoints\WaypointManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\server\game\OutdoorPvP\OutdoorPvP.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\server\game\OutdoorPvP\OutdoorPvPMgr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\server\game\Pools\PoolMgr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\server\game\Quests\QuestDef.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\server\game\Reputation\ReputationMgr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\server\game\Scripting\MapScripts.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\server\game\Scripting\ScriptLoader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\server\game\Scripting\ScriptMgr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\server\game\Scripting\ScriptSystem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\server\game\Server\Protocol\Handlers\AddonHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\server\game\Server\Protocol\Handlers\ArenaTeamHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\server\game\Server\Protocol\Handlers\AuctionHouseHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\server\game\Server\Protocol\Handlers\AuthHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\server\game\Server\Protocol\Handlers\BattleGroundHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\server\game\Server\Protocol\Handlers\CalendarHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\server\game\Server\Protocol\Handlers\ChannelHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\server\game\Server\Protocol\Handlers\CharacterHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\server\game\Server\Protocol\Handlers\ChatHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\server\game\Server\Protocol\Handlers\CombatHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\server\game\Server\Protocol\Handlers\DuelHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\server\game\Server\Protocol\Handlers\GroupHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\server\game\Server\Protocol\Handlers\GuildHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\server\game\Server\Protocol\Handlers\ItemHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\server\game\Server\Protocol\Handlers\LFGHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\server\game\Server\Protocol\Handlers\LootHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\server\game\Server\Protocol\Handlers\MailHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\server\game\Server\Protocol\Handlers\MiscHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\server\game\Server\Protocol\Handlers\MovementHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\server\game\Server\Protocol\Handlers\NPCHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\server\game\Server\Protocol\Handlers\PetHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\server\game\Server\Protocol\Handlers\PetitionsHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\server\game\Server\Protocol\Handlers\QueryHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\server\game\Server\Protocol\Handlers\QuestHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\server\game\Server\Protocol\Handlers\SkillHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\server\game\Server\Protocol\Handlers\SpellHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\server\game\Server\Protocol\Handlers\TaxiHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\server\game\Server\Protocol\Handlers\TicketHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\server\game\Server\Protocol\Handlers\TradeHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\server\game\Server\Protocol\Handlers\VehicleHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\server\game\Server\Protocol\Handlers\VoiceChatHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\server\game\Server\Protocol\Opcodes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\server\game\Server\Protocol\WorldLog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\server\game\Server\WorldSession.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\server\game\Server\WorldSocket.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\server\game\Server\WorldSocketMgr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\server\game\Skills\SkillDiscovery.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\server\game\Skills\SkillExtraItems.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\server\game\Spells\Auras\SpellAuraEffects.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\server\game\Spells\Auras\SpellAuras.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\server\game\Spells\Spell.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\server\game\Spells\SpellEffects.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\server\game\Spells\SpellMgr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\server\game\Spells\SpellScript.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\server\game\Texts\CreatureTextMgr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\server\game\Tools\CharacterDatabaseCleaner.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\server\game\Tools\PlayerDump.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\server\game\Tickets\TicketMgr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\server\game\Weather\Weather.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\server\game\Weather\WeatherMgr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\server\game\World\World.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\src\server\game\PrecompiledHeaders\gamePCH.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\server\game\Accounts\AccountMgr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\server\game\Achievements\AchievementMgr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\server\game\Addons\AddonMgr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\server\game\AI\CoreAI\CombatAI.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\server\game\AI\CoreAI\GameObjectAI.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\server\game\AI\CoreAI\GuardAI.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\server\game\AI\CoreAI\PassiveAI.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\server\game\AI\CoreAI\PetAI.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\server\game\AI\CoreAI\ReactorAI.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\server\game\AI\CoreAI\TotemAI.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\server\game\AI\CoreAI\UnitAI.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\server\game\AI\CreatureAI.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\server\game\AI\CreatureAIFactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\server\game\AI\CreatureAIImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\server\game\AI\CreatureAIRegistry.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\server\game\AI\CreatureAISelector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\server\game\AI\EventAI\CreatureEventAI.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\server\game\AI\EventAI\CreatureEventAIMgr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\server\game\AI\ScriptedAI\ScriptedCreature.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\server\game\AI\ScriptedAI\ScriptedEscortAI.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\server\game\AI\ScriptedAI\ScriptedFollowerAI.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\server\game\AI\ScriptedAI\ScriptedGossip.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\server\game\AI\ScriptedAI\ScriptedSimpleAI.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\server\game\AI\SmartScripts\SmartAI.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\server\game\AI\SmartScripts\SmartScript.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\server\game\AI\SmartScripts\SmartScriptMgr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\server\game\AuctionHouse\AuctionHouseMgr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\server\game\Battlegrounds\ArenaTeam.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\server\game\Battlegrounds\ArenaTeamMgr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\server\game\Battlegrounds\Battleground.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\server\game\Battlegrounds\BattlegroundMgr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\server\game\Battlegrounds\BattlegroundQueue.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\server\game\Battlegrounds\Zones\BattlegroundAA.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\server\game\Battlegrounds\Zones\BattlegroundAB.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\server\game\Battlegrounds\Zones\BattlegroundAV.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\server\game\Battlegrounds\Zones\BattlegroundBE.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\server\game\Battlegrounds\Zones\BattlegroundDS.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\server\game\Battlegrounds\Zones\BattlegroundEY.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\server\game\Battlegrounds\Zones\BattlegroundIC.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\server\game\Battlegrounds\Zones\BattlegroundNA.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\server\game\Battlegrounds\Zones\BattlegroundRB.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\server\game\Battlegrounds\Zones\BattlegroundRL.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\server\game\Battlegrounds\Zones\BattlegroundRV.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\server\game\Battlegrounds\Zones\BattlegroundSA.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\server\game\Battlegrounds\Zones\BattlegroundWS.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\server\game\Calendar\Calendar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\server\game\Chat\Channels\Channel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\server\game\Chat\Channels\ChannelMgr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\server\game\Chat\Chat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\server\game\Chat\ChatLink.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\server\game\Combat\HostileRefManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\server\game\Combat\ThreatManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\server\game\Combat\UnitEvents.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\server\game\Conditions\ConditionMgr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\server\game\Conditions\DisableMgr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\server\game\DataStores\DBCEnums.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\server\game\DataStores\DBCfmt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\server\game\DataStores\DBCStores.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\server\game\DataStores\DBCStructure.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\server\game\DungeonFinding\LFG.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\server\game\DungeonFinding\LFGGroupData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\server\game\DungeonFinding\LFGMgr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\server\game\DungeonFinding\LFGPlayerData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\server\game\DungeonFinding\LFGScripts.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\server\game\Entities\Corpse\Corpse.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\server\game\Entities\Creature\Creature.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\server\game\Entities\Creature\CreatureGroups.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\server\game\Entities\Creature\GossipDef.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\server\game\Entities\Creature\TemporarySummon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\server\game\Entities\DynamicObject\DynamicObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\server\game\Entities\GameObject\GameObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\server\game\Entities\Item\Container\Bag.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\server\game\Entities\Item\Item.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\server\game\Entities\Item\ItemEnchantmentMgr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\server\game\Entities\Item\ItemPrototype.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\server\game\Entities\Object\Object.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\server\game\Entities\Object\ObjectDefines.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\server\game\Entities\Object\ObjectPosSelector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\server\game\Entities\Object\Updates\UpdateData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\server\game\Entities\Object\Updates\UpdateFields.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\server\game\Entities\Object\Updates\UpdateMask.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\server\game\Entities\Pet\Pet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\server\game\Entities\Player\DynamicTeleportMgr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\server\game\Entities\Player\Player.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\server\game\Entities\Player\SocialMgr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\server\game\Entities\Totem\Totem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\server\game\Entities\Transport\Transport.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\server\game\Entities\Unit\Unit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\server\game\Entities\Vehicle\Vehicle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\server\game\Events\GameEventMgr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\server\game\Globals\ObjectAccessor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\server\game\Globals\ObjectMgr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\server\game\Grids\Cells\Cell.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\server\game\Grids\Cells\CellImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\server\game\Grids\Grid.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\server\game\Grids\GridDefines.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\server\game\Grids\GridLoader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\server\game\Grids\GridReference.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\server\game\Grids\GridRefManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\server\game\Grids\GridStates.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\server\game\Grids\NGrid.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\server\game\Grids\Notifiers\GridNotifiers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\server\game\Grids\Notifiers\GridNotifiersImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\server\game\Grids\ObjectGridLoader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\server\game\Groups\Group.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\server\game\Groups\GroupMgr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\server\game\Groups\GroupReference.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\server\game\Groups\GroupRefManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\server\game\Guilds\Guild.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\server\game\Guilds\GuildMgr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\server\game\Instances\InstanceSaveMgr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\server\game\Instances\InstanceScript.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\server\game\Loot\LootMgr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\server\game\Mails\Mail.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\server\game\Maps\Map.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\server\game\Maps\MapInstanced.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\server\game\Maps\MapManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\server\game\Maps\MapReference.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\server\game\Maps\MapRefManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\server\game\Maps\MapUpdater.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\server\game\Maps\ZoneScript.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\server\game\Miscellaneous\Formulas.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\server\game\Miscellaneous\Language.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\server\game\Miscellaneous\SharedDefines.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\server\game\Movement\DestinationHolder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\server\game\Movement\DestinationHolderImp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\server\game\Movement\FollowerReference.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\server\game\Movement\FollowerRefManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\server\game\Movement\MotionMaster.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\server\game\Movement\MovementGenerator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\server\game\Movement\MovementGeneratorImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\server\game\Movement\MovementGenerators\ConfusedMovementGenerator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\server\game\Movement\MovementGenerators\FleeingMovementGenerator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\server\game\Movement\MovementGenerators\HomeMovementGenerator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\server\game\Movement\MovementGenerators\IdleMovementGenerator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\server\game\Movement\MovementGenerators\PointMovementGenerator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\server\game\Movement\MovementGenerators\RandomMovementGenerator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\server\game\Movement\MovementGenerators\TargetedMovementGenerator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\server\game\Movement\MovementGenerators\WaypointMovementGenerator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\server\game\Movement\Traveller.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\server\game\Movement\Waypoints\Path.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\server\game\Movement\Waypoints\WaypointManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\server\game\OutdoorPvP\OutdoorPvP.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\server\game\OutdoorPvP\OutdoorPvPMgr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\server\game\Pools\PoolMgr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\server\game\Quests\QuestDef.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\server\game\Reputation\ReputationMgr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\server\game\Scripting\ScriptLoader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\server\game\Scripting\ScriptMgr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\server\game\Scripting\ScriptSystem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\server\game\Server\Protocol\Handlers\AddonHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\server\game\Server\Protocol\Handlers\NPCHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\server\game\Server\Protocol\Opcodes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\server\game\Server\Protocol\WorldLog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\server\game\Server\WorldSession.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\server\game\Server\WorldSocket.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\server\game\Server\WorldSocketAcceptor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\server\game\Server\WorldSocketMgr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\server\game\Skills\SkillDiscovery.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\server\game\Skills\SkillExtraItems.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\server\game\Spells\Auras\SpellAuraDefines.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\server\game\Spells\Auras\SpellAuraEffects.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\server\game\Spells\Auras\SpellAuras.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\server\game\Spells\Spell.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\server\game\Spells\SpellMgr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\server\game\Spells\SpellScript.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\server\game\Texts\CreatureTextMgr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\server\game\Tools\CharacterDatabaseCleaner.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\server\game\Tools\PlayerDump.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\server\game\Tickets\TicketMgr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\server\game\Weather\Weather.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\server\game\Weather\WeatherMgr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\src\server\game\World\World.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\..\..\src\server\game\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{6346F269-FBDE-442A-9095-49826F62B40E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{0BB6EB80-6F2A-4783-8B26-53A696AE7D9E}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\..\src\server\game\PrecompiledHeaders\gamePCH.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\src\server\game\Accounts\AccountMgr.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\src\server\game\Achievements\AchievementMgr.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\src\server\game\Addons\AddonMgr.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\src\server\game\AI\CoreAI\CombatAI.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\src\server\game\AI\CoreAI\GameObjectAI.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\src\server\game\AI\CoreAI\GuardAI.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\src\server\game\AI\CoreAI\PassiveAI.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\src\server\game\AI\CoreAI\PetAI.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\src\server\game\AI\CoreAI\ReactorAI.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\src\server\game\AI\CoreAI\TotemAI.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\src\server\game\AI\CoreAI\UnitAI.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\src\server\game\AI\CreatureAI.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\src\server\game\AI\CreatureAIRegistry.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\src\server\game\AI\CreatureAISelector.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\src\server\game\AI\EventAI\CreatureEventAI.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\src\server\game\AI\EventAI\CreatureEventAIMgr.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\src\server\game\AI\ScriptedAI\ScriptedCreature.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\src\server\game\AI\ScriptedAI\ScriptedEscortAI.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\src\server\game\AI\ScriptedAI\ScriptedFollowerAI.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\src\server\game\AI\ScriptedAI\ScriptedSimpleAI.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\src\server\game\AI\SmartScripts\SmartAI.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\src\server\game\AI\SmartScripts\SmartScript.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\src\server\game\AI\SmartScripts\SmartScriptMgr.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\src\server\game\AuctionHouse\AuctionHouseMgr.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\src\server\game\Battlegrounds\ArenaTeam.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\src\server\game\Battlegrounds\ArenaTeamMgr.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\src\server\game\Battlegrounds\Battleground.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\src\server\game\Battlegrounds\BattlegroundMgr.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\src\server\game\Battlegrounds\BattlegroundQueue.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\src\server\game\Battlegrounds\Zones\BattlegroundAA.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\src\server\game\Battlegrounds\Zones\BattlegroundAB.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\src\server\game\Battlegrounds\Zones\BattlegroundAV.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\src\server\game\Battlegrounds\Zones\BattlegroundBE.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\src\server\game\Battlegrounds\Zones\BattlegroundDS.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\src\server\game\Battlegrounds\Zones\BattlegroundEY.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\src\server\game\Battlegrounds\Zones\BattlegroundIC.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\src\server\game\Battlegrounds\Zones\BattlegroundNA.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\src\server\game\Battlegrounds\Zones\BattlegroundRB.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\src\server\game\Battlegrounds\Zones\BattlegroundRL.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\src\server\game\Battlegrounds\Zones\BattlegroundRV.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\src\server\game\Battlegrounds\Zones\BattlegroundSA.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\src\server\game\Battlegrounds\Zones\BattlegroundWS.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\src\server\game\Calendar\Calendar.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\src\server\game\Chat\Channels\Channel.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\src\server\game\Chat\Channels\ChannelMgr.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\src\server\game\Chat\Chat.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\src\server\game\Chat\ChatLink.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\src\server\game\Chat\Commands\Debugcmds.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\src\server\game\Chat\Commands\Level0.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\src\server\game\Chat\Commands\Level1.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\src\server\game\Chat\Commands\Level2.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\src\server\game\Chat\Commands\Level3.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\src\server\game\Chat\Commands\TicketCommands.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\src\server\game\Combat\HostileRefManager.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\src\server\game\Combat\ThreatManager.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\src\server\game\Conditions\ConditionMgr.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\src\server\game\Conditions\DisableMgr.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\src\server\game\DataStores\DBCStores.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\src\server\game\DungeonFinding\LFGGroupData.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\src\server\game\DungeonFinding\LFGMgr.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\src\server\game\DungeonFinding\LFGPlayerData.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\src\server\game\DungeonFinding\LFGScripts.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\src\server\game\Entities\Corpse\Corpse.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\src\server\game\Entities\Creature\Creature.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\src\server\game\Entities\Creature\CreatureGroups.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\src\server\game\Entities\Creature\GossipDef.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\src\server\game\Entities\Creature\TemporarySummon.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\src\server\game\Entities\DynamicObject\DynamicObject.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\src\server\game\Entities\GameObject\GameObject.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\src\server\game\Entities\Item\Container\Bag.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\src\server\game\Entities\Item\Item.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\src\server\game\Entities\Item\ItemEnchantmentMgr.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\src\server\game\Entities\Object\Object.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\src\server\game\Entities\Object\ObjectPosSelector.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\src\server\game\Entities\Object\Updates\UpdateData.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\src\server\game\Entities\Pet\Pet.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\src\server\game\Entities\Player\DynamicTeleportMgr.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\src\server\game\Entities\Player\Player.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\src\server\game\Entities\Player\SocialMgr.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\src\server\game\Entities\Totem\Totem.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\src\server\game\Entities\Transport\Transport.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\src\server\game\Entities\Unit\StatSystem.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\src\server\game\Entities\Unit\Unit.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\src\server\game\Entities\Vehicle\Vehicle.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\src\server\game\Events\GameEventMgr.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\src\server\game\Globals\ObjectAccessor.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\src\server\game\Globals\ObjectMgr.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\src\server\game\Grids\GridStates.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\src\server\game\Grids\Notifiers\GridNotifiers.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\src\server\game\Grids\ObjectGridLoader.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\src\server\game\Groups\Group.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\src\server\game\Groups\GroupMgr.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\src\server\game\Groups\GroupReference.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\src\server\game\Guilds\Guild.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\src\server\game\Guilds\GuildMgr.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\src\server\game\Instances\InstanceSaveMgr.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\src\server\game\Instances\InstanceScript.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\src\server\game\Loot\LootMgr.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\src\server\game\Mails\Mail.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\src\server\game\Maps\Map.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\src\server\game\Maps\MapInstanced.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\src\server\game\Maps\MapManager.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\src\server\game\Maps\MapUpdater.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\src\server\game\Movement\DestinationHolder.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\src\server\game\Movement\FollowerReference.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\src\server\game\Movement\MotionMaster.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\src\server\game\Movement\MovementGenerator.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\src\server\game\Movement\MovementGenerators\ConfusedMovementGenerator.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\src\server\game\Movement\MovementGenerators\FleeingMovementGenerator.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\src\server\game\Movement\MovementGenerators\HomeMovementGenerator.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\src\server\game\Movement\MovementGenerators\IdleMovementGenerator.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\src\server\game\Movement\MovementGenerators\PointMovementGenerator.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\src\server\game\Movement\MovementGenerators\RandomMovementGenerator.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\src\server\game\Movement\MovementGenerators\TargetedMovementGenerator.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\src\server\game\Movement\MovementGenerators\WaypointMovementGenerator.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\src\server\game\Movement\Waypoints\WaypointManager.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\src\server\game\OutdoorPvP\OutdoorPvP.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\src\server\game\OutdoorPvP\OutdoorPvPMgr.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\src\server\game\Pools\PoolMgr.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\src\server\game\Quests\QuestDef.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\src\server\game\Reputation\ReputationMgr.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\src\server\game\Scripting\MapScripts.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\src\server\game\Scripting\ScriptLoader.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\src\server\game\Scripting\ScriptMgr.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\src\server\game\Scripting\ScriptSystem.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\src\server\game\Server\Protocol\Handlers\AddonHandler.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\src\server\game\Server\Protocol\Handlers\ArenaTeamHandler.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\src\server\game\Server\Protocol\Handlers\AuctionHouseHandler.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\src\server\game\Server\Protocol\Handlers\AuthHandler.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\src\server\game\Server\Protocol\Handlers\BattleGroundHandler.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\src\server\game\Server\Protocol\Handlers\CalendarHandler.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\src\server\game\Server\Protocol\Handlers\ChannelHandler.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\src\server\game\Server\Protocol\Handlers\CharacterHandler.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\src\server\game\Server\Protocol\Handlers\ChatHandler.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\src\server\game\Server\Protocol\Handlers\CombatHandler.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\src\server\game\Server\Protocol\Handlers\DuelHandler.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\src\server\game\Server\Protocol\Handlers\GroupHandler.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\src\server\game\Server\Protocol\Handlers\GuildHandler.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\src\server\game\Server\Protocol\Handlers\ItemHandler.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\src\server\game\Server\Protocol\Handlers\LFGHandler.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\src\server\game\Server\Protocol\Handlers\LootHandler.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\src\server\game\Server\Protocol\Handlers\MailHandler.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\src\server\game\Server\Protocol\Handlers\MiscHandler.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\src\server\game\Server\Protocol\Handlers\MovementHandler.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\src\server\game\Server\Protocol\Handlers\NPCHandler.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\src\server\game\Server\Protocol\Handlers\PetHandler.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\src\server\game\Server\Protocol\Handlers\PetitionsHandler.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\src\server\game\Server\Protocol\Handlers\QueryHandler.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\src\server\game\Server\Protocol\Handlers\QuestHandler.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\src\server\game\Server\Protocol\Handlers\SkillHandler.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\src\server\game\Server\Protocol\Handlers\SpellHandler.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\src\server\game\Server\Protocol\Handlers\TaxiHandler.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\src\server\game\Server\Protocol\Handlers\TicketHandler.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\src\server\game\Server\Protocol\Handlers\TradeHandler.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\src\server\game\Server\Protocol\Handlers\VehicleHandler.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\src\server\game\Server\Protocol\Handlers\VoiceChatHandler.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\src\server\game\Server\Protocol\Opcodes.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\src\server\game\Server\Protocol\WorldLog.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\src\server\game\Server\WorldSession.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\src\server\game\Server\WorldSocket.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\src\server\game\Server\WorldSocketMgr.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\src\server\game\Skills\SkillDiscovery.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\src\server\game\Skills\SkillExtraItems.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\src\server\game\Spells\Auras\SpellAuraEffects.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\src\server\game\Spells\Auras\SpellAuras.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\src\server\game\Spells\Spell.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\src\server\game\Spells\SpellEffects.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\src\server\game\Spells\SpellMgr.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\src\server\game\Spells\SpellScript.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\src\server\game\Texts\CreatureTextMgr.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\src\server\game\Tools\CharacterDatabaseCleaner.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\src\server\game\Tools\PlayerDump.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\src\server\game\Tickets\TicketMgr.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\src\server\game\Weather\Weather.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\src\server\game\Weather\WeatherMgr.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\src\server\game\World\World.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

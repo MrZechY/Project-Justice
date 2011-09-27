@@ -10,10 +10,12 @@
 
 set(scripts_STAT_SRCS
   ${scripts_STAT_SRCS}
-	Custom/dynamic_teleporter.cpp
-	Custom/custom_npc_doctor.cpp
-	Custom/npc_petmaster.cpp
+  Custom/dynamic_teleporter.cpp
+  Custom/custom_npc_doctor.cpp
+  Custom/npc_petmaster.cpp
   Custom/npc_quelthalas.cpp
+  CUstom/OutdoorPvPAzshara.h
+  Custom/OutdoorPvPAzshara.cpp
 )
 
 message("  -> Prepared: Custom")
