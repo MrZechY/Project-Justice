@@ -29,6 +29,15 @@ namespace Trinity
     {
         inline float hk_honor_at_level_f(uint8 level, float multiplier = 1.0f)
         {
+            uint32 xpevent = 777;
+            if(gameeventmgr.IsActiveEvent(xpevent))
+            {
+                if(isVIP)
+                    multiplier *= 3.0f;
+                else
+                    multiplier *= 2.0f;
+            }
+            
             float honor = multiplier * level * 1.55f;
             sScriptMgr->OnHonorCalculation(honor, level, multiplier);
             return honor;
@@ -179,6 +188,7 @@ namespace Trinity
                 }
 
                 gain = uint32(gain * sWorld->getRate(RATE_XP_KILL));
+                
             }
 
             sScriptMgr->OnGainCalculation(gain, pl, u);
