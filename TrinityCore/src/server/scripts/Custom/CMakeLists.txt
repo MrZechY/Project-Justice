@@ -14,8 +14,6 @@ set(scripts_STAT_SRCS
   Custom/custom_npc_doctor.cpp
   Custom/npc_petmaster.cpp
   Custom/npc_quelthalas.cpp
-  Custom/OutdoorPvPAzshara.h
-  Custom/OutdoorPvPAzshara.cpp
   Custom/AzsharaPvP.cpp
   Custom/AzsharaPvP.h
   Custom/AzsharaPvP_Caster.cpp
